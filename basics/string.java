@@ -15,12 +15,17 @@ public class sting{
 
         StringBuilder sb = new StringBuilder(name);
         System.out.println("StringBuilder String : " + sb);
+
+
         sb.append(" Java");
         System.out.println("After append : " + sb);
+
         sb.insert(10, " learning");
         System.out.println("After insert : " + sb);
+
         sb.delete(10,18);
         System.out.println("After delete : " + sb);
+
         sb.reverse();
         System.out.println("After reverse : " + sb);
 
