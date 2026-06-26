@@ -16,7 +16,6 @@ public class sting{
         StringBuilder sb = new StringBuilder(name);
         System.out.println("StringBuilder String : " + sb);
 
-
         sb.append(" Java");
         System.out.println("After append : " + sb);
 
